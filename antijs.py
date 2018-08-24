@@ -10,37 +10,37 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 import youtube_dl
 
-cl = LineClient(authToken='EudBnx7OTczHol5QyWeb.0PzLwS72Fl1EGGJMnIN3IW.Qvu8QiQt7pnfeJN4gY0zkDs50nCO1N+aG/x7WKMXses=')
+cl = LineClient(authToken='')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ki = LineClient(authToken='EuEmqr5CG0kRTaWFu8u3.ceM9NaolFHDUaV2+G8nZyW.UrACa12j9/xLgpIEcaMcaucuYOBpCaIR7X5rPPmrl84=')
+ki = LineClient(authToken='')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
-kk = LineClient(authToken='EuI2Plp0ANcqOQhsYYD7.L9FHe7uzKTCG1RQIn1TiTW.TY44ZVhARfswdpDGJm8slUEHNJTX+4EP9jcrHfL0wzY=')
+kk = LineClient(authToken='')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
-kc = LineClient(authToken='EuX9KX2wLKNalVdGaZS7.zHaODuDXU8bfbqzFy+szXW.ZiWB0anJ0rWRbCi2ZdxCFW3Nryk9T3nD9mNf9ovFtZo=')
+kc = LineClient(authToken='')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
-kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
+kc.log("Channel Access Token : " + str(channel3.channelAccessToken)
 
-sw = LineClient(authToken='EujrOmXVTQt2dx7p6bS7.bWJKbDdrkKVEodATWyP5nW.nN7hTVNi8alVProqheUF2wFfuAlOxsmATznqVSbRVUw=')
+sw = LineClient(authToken='')
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
 
 poll = LinePoll(cl)
 call = LineCall(cl)
-creator = ["ud296655acef67cbd5e8208e63629f78b"]
-owner = ["ud296655acef67cbd5e8208e63629f78b"]
-admin = ["ud296655acef67cbd5e8208e63629f78b"]
-staff = ["ud296655acef67cbd5e8208e63629f78b"]
+creator = ["u4862fe4b182b2fd194a3108e2f3662e8"]
+owner = ["u4862fe4b182b2fd194a3108e2f3662e8"]
+admin = ["u4862fe4b182b2fd194a3108e2f3662e8"]
+staff = ["u4862fe4b182b2fd194a3108e2f3662e8"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
